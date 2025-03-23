@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
-            <Link href="/" className="inline-block font-bold">
+            <Link href="/" className="inline-block font-medium">
               AdCreative
             </Link>
             <p className="text-sm text-muted-foreground">
@@ -15,7 +15,7 @@ export function Footer() {
             </p>
           </div>
           <div className="space-y-4">
-            <h3 className="text-sm font-medium">Product</h3>
+            <h3 className="text-sm font-normal">Product</h3>
             <nav className="grid gap-2">
               <Link href="/home" className="text-sm hover:underline">
                 Generator
@@ -29,7 +29,7 @@ export function Footer() {
             </nav>
           </div>
           <div className="space-y-4">
-            <h3 className="text-sm font-medium">Company</h3>
+            <h3 className="text-sm font-normal">Company</h3>
             <nav className="grid gap-2">
               <Link href="/about" className="text-sm hover:underline">
                 About
@@ -43,7 +43,7 @@ export function Footer() {
             </nav>
           </div>
           <div className="space-y-4">
-            <h3 className="text-sm font-medium">Legal</h3>
+            <h3 className="text-sm font-normal">Legal</h3>
             <nav className="grid gap-2">
               <Link href="#" className="text-sm hover:underline">
                 Privacy Policy

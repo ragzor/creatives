@@ -5,7 +5,7 @@ export function Features() {
     <section className="py-16 md:py-24" id="features">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-2xl font-medium tracking-tighter sm:text-3xl md:text-4xl">
             Why Choose Our Ad Creative Generator
           </h2>
           <p className="mx-auto mt-4 max-w-[700px] text-muted-foreground md:text-xl">
@@ -19,7 +19,7 @@ export function Features() {
             <div className="rounded-full p-3 mb-4 bg-primary/10">
               <Zap className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Lightning Fast</h3>
+            <h3 className="text-lg font-medium mb-2">Lightning Fast</h3>
             <p className="text-muted-foreground">
               Generate multiple ad creative variations in seconds, not days
             </p>
@@ -29,7 +29,7 @@ export function Features() {
             <div className="rounded-full p-3 mb-4 bg-primary/10">
               <Wand2 className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold mb-2">AI-Powered Copy</h3>
+            <h3 className="text-lg font-medium mb-2">AI-Powered Copy</h3>
             <p className="text-muted-foreground">
               Create compelling ad copy that converts with our advanced AI
               technology
@@ -40,7 +40,7 @@ export function Features() {
             <div className="rounded-full p-3 mb-4 bg-primary/10">
               <Layout className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Multiple Templates</h3>
+            <h3 className="text-lg font-medium mb-2">Multiple Templates</h3>
             <p className="text-muted-foreground">
               Choose from a variety of professionally designed templates or
               create your own
@@ -51,7 +51,7 @@ export function Features() {
             <div className="rounded-full p-3 mb-4 bg-primary/10">
               <RefreshCw className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Unlimited Variations</h3>
+            <h3 className="text-lg font-medium mb-2">Unlimited Variations</h3>
             <p className="text-muted-foreground">
               Generate and test multiple variations to find the highest
               performing ads
@@ -62,7 +62,7 @@ export function Features() {
             <div className="rounded-full p-3 mb-4 bg-primary/10">
               <Target className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Target Audience Focus</h3>
+            <h3 className="text-lg font-medium mb-2">Target Audience Focus</h3>
             <p className="text-muted-foreground">
               Create ad creatives tailored to your specific target audience and
               goals
@@ -73,7 +73,9 @@ export function Features() {
             <div className="rounded-full p-3 mb-4 bg-primary/10">
               <Palette className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold mb-2">No Design Skills Needed</h3>
+            <h3 className="text-lg font-medium mb-2">
+              No Design Skills Needed
+            </h3>
             <p className="text-muted-foreground">
               Create professional-looking ad creatives without any design
               experience

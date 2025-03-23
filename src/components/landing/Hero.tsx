@@ -52,13 +52,13 @@ export function Hero() {
   return (
     <section className="relative pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="container px-4 md:px-6">
-        <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
-          <div className="flex flex-col justify-center space-y-4">
+        <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center text-center space-y-4 mb-10">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+              <h1 className="text-2xl font-medium tracking-tighter sm:text-4xl xl:text-5xl/none">
                 Generate Compelling Ad Creatives in Seconds
               </h1>
-              <p className="max-w-[600px] text-muted-foreground md:text-xl">
+              <p className="text-muted-foreground md:text-xl">
                 Transform your marketing with AI-powered ad creatives that
                 convert. No design skills required.
               </p>
@@ -67,7 +67,7 @@ export function Hero() {
             <Form {...form}>
               <form
                 onSubmit={form.handleSubmit(onSubmit)}
-                className="space-y-4 w-full max-w-md"
+                className="space-y-4 w-full max-w-md mt-6"
               >
                 <FormField
                   control={form.control}
@@ -95,7 +95,8 @@ export function Hero() {
               </form>
             </Form>
           </div>
-          <div className="flex items-center justify-center">
+
+          <div className="w-full max-w-4xl">
             <div className="grid grid-cols-2 gap-4 md:grid-cols-2">
               <div className="space-y-4">
                 <div className="overflow-hidden rounded-lg border bg-card shadow animate-fade-in">
@@ -117,7 +118,7 @@ export function Hero() {
                   </div>
                 </div>
               </div>
-              <div className="space-y-4 mt-8">
+              <div className="space-y-4">
                 <div className="overflow-hidden rounded-lg border bg-card shadow animate-fade-in delay-75">
                   <div className="p-4">
                     <div className="h-40 bg-muted rounded-md"></div>

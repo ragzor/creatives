@@ -8,15 +8,15 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b bg-background/80 backdrop-blur-sm">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-6">
-          <Link href="/" className="flex items-center gap-2 font-medium">
-            <span className="text-lg font-bold">AdCreative</span>
+          <Link href="/" className="flex items-center gap-2">
+            <span className="text-lg font-medium">AdCreative</span>
           </Link>
           <nav className="hidden md:flex">
             <ul className="flex items-center gap-6">
               <li>
                 <Link
                   href="/templates"
-                  className="text-sm font-medium transition-colors hover:text-foreground/80"
+                  className="text-sm transition-colors hover:text-foreground/80"
                 >
                   Templates
                 </Link>
@@ -24,7 +24,7 @@ export function Header() {
               <li>
                 <Link
                   href="/pricing"
-                  className="text-sm font-medium transition-colors hover:text-foreground/80"
+                  className="text-sm transition-colors hover:text-foreground/80"
                 >
                   Pricing
                 </Link>
@@ -32,7 +32,7 @@ export function Header() {
               <li>
                 <Link
                   href="/blog"
-                  className="text-sm font-medium transition-colors hover:text-foreground/80"
+                  className="text-sm transition-colors hover:text-foreground/80"
                 >
                   Blog
                 </Link>
@@ -40,7 +40,7 @@ export function Header() {
               <li>
                 <Link
                   href="/about"
-                  className="text-sm font-medium transition-colors hover:text-foreground/80"
+                  className="text-sm transition-colors hover:text-foreground/80"
                 >
                   About
                 </Link>

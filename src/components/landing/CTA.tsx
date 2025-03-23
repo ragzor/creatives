@@ -7,7 +7,7 @@ export function CTA() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
+            <h2 className="text-2xl font-medium tracking-tighter md:text-3xl">
               Ready to Transform Your Ad Creatives?
             </h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
